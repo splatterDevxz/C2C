@@ -27,7 +27,7 @@ h5,h6{
 
 
 p,a,qoute,span,blockquote{
-    font-size: 1.2em;
+    font-size: 0.9em;
 }
 
 p{
@@ -58,4 +58,18 @@ button{
 .grid-two-col{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.button-defs{
+    background: none;
+    border: 2px solid #007dd9;
+    border-radius: 50px;
+    padding: 2% 64px;
+
+    background: #007dd9;
+
+   
+    a{
+        color: #fff !important;
+    }  
 }
