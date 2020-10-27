@@ -1,0 +1,19 @@
+#__svg_img_banner{
+    img{
+        width: 100%;
+    }
+}
+
+#heading-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        margin:0 !important;
+    }
+    h1{
+        font-size: 3em;
+        font-weight: 800;
+    }
+}

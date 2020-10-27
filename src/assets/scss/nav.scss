@@ -1,0 +1,39 @@
+
+#header{
+    background: #ffffff;
+    margin-bottom: 1.45rem;
+    box-shadow: 1px 17px 12px 1px #eeeeee85;
+}
+
+#navigation{
+    display: grid;
+    grid-template-columns: 45% 1fr; 
+    padding: 1% 0;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        li{
+            list-style-type: none;
+            padding: 0 3%;
+            a{
+                color: #474747;
+                text-decoration: none;
+                font-size: 0.9rem;
+            }
+
+            &:last-child{
+
+                background: #29c4ff;
+                border-radius: 13px;
+                padding: 5px 25px;
+                margin: 0 14px;
+
+                a{
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
