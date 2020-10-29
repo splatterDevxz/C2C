@@ -1,25 +1,54 @@
 
-
 #section-services{
+
+	background-image: url("../images/svg/ellipsis.svg");
 	text-align: center;
+    background-size: 100% 100%;
+	background-position: center;
 	
 	h1{
 		font-size: 3rem;
-    	font-weight: 800;
+		font-weight: 800;
 	}
 }
+
 .icon-service{
+
+	display: block;
+	text-align: left;
+
 	span{
-		padding: 10px 14px;
-	    border-radius: 4px;
-	    display: flex;
-	    justify-content: center;
-	    max-width: 34px;
-	    margin: 0 auto;
-	    align-items: center;
+
+		padding: 13px 17px;
+		border-radius: 19px;
+		display: flex;
+		justify-content: center;
+		max-width: 64px;
+		margin: 10% 0;
+		align-items: center;
+		height: 60px;
+
 	    img{
 	    	width: 40px;
-	    }
+		}
 	}
 
+	h2{
+		font-size: 18px;
+		font-weight: 800;
+
+		.block-elem{
+			margin: 0;
+			display: block;
+			padding: 0;
+			height: auto;
+			max-width: 100%;
+			font-size: 18px;
+		}
+	}
+	.sub-content{
+		font-size: 1.3rem;
+		max-width: 500px;
+		margin: 3% auto !important;
+	}
 }

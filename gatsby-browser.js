@@ -7,4 +7,5 @@
 // You can delete this file if you're not using it
 
 
-import "styles/main.scss" 
+import 'antd/dist/antd.css';
+import "styles/main.scss"

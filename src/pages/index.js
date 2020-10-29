@@ -5,6 +5,7 @@ import SEO from "components/seo"
 import Banner from "components/banner"
 import Partners from "components/partners"
 import Services from "components/services"
+import Main from "components/main"
 
 const IndexPage = () => (
   <Layout>
@@ -12,7 +13,7 @@ const IndexPage = () => (
     <Banner/>
     <Partners/>
     <Services/>
-  </Layout>	
-)			
-	
+    <Main/>
+  </Layout>
+)
 export default IndexPage

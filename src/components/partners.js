@@ -14,10 +14,13 @@ const Partners = ()=>{
                 {
                     partLogo.map((e, i)=>
                         <span>
-                            <img src={e} alt="partner-logos"/>
+                            <img 
+                                src={e} 
+                                alt="partner-logos"
+                            />
                         </span>
-                    ) 
-                }       
+                    )
+                }  
             </section>
         </>
     )

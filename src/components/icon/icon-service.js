@@ -10,19 +10,17 @@ const IconServices = ({
 })=>{
 	return (
 		<>
-
-			<span className="icon-service">
+			<div className="icon-service">
 				<span style={iconStyle}>
 					<img src={iconSVG} alt="icon-svg" />
 				</span>
 
-				<h2>
-					{iconHeading}
-				</h2>
+				<h2 dangerouslySetInnerHTML={{__html: iconHeading}} />
+				
 				<p>
 					{iconInfo}
 				</p>
-			</span>
+			</div>
 		</>	
 	)
 }

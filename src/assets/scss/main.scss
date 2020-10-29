@@ -6,6 +6,7 @@
 @import "nav";
 @import "banner";
 @import "services";
+@import "main-content";
 
 
 body{
@@ -72,4 +73,9 @@ button{
     a{
         color: #fff !important;
     }  
+}
+
+.container{
+    margin: 0px auto;
+    max-width: 990px;
 }
