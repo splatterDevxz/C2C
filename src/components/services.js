@@ -17,6 +17,7 @@ const Services = ()=>{
 	return(
 		<>
 			<section id="section-services">
+				<div className="container">
 				<h1>
                     Services Offered
                 </h1>
@@ -99,6 +100,7 @@ const Services = ()=>{
 			      		/>
 				    </Col>
 			    </Row>
+			    </div>
 			</section>
 		</>
 	)

@@ -11,16 +11,18 @@ const Partners = ()=>{
     return(
         <>
             <section className="partners-branding">
-                {
-                    partLogo.map((e, i)=>
-                        <span>
-                            <img 
-                                src={e} 
-                                alt="partner-logos"
-                            />
-                        </span>
-                    )
-                }  
+                <div className="container">
+                    {
+                        partLogo.map((e, i)=>
+                            <span>
+                                <img 
+                                    src={e} 
+                                    alt="partner-logos"
+                                />
+                            </span>
+                        )
+                    }
+                </div>
             </section>
         </>
     )

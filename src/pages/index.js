@@ -6,6 +6,9 @@ import Banner from "components/banner"
 import Partners from "components/partners"
 import Services from "components/services"
 import Main from "components/main"
+import LowerMain from "components/lower-main"
+import Candely from "components/candely"
+
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +17,8 @@ const IndexPage = () => (
     <Partners/>
     <Services/>
     <Main/>
+    <LowerMain/>	
+    <Candely/>
   </Layout>
 )
 export default IndexPage

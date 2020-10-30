@@ -10,8 +10,8 @@ module.exports = {
             ["images", "./src/assets/images"],
             ["fonts", "./src/assets/fonts"],
             ["styles", "./src/assets/scss"],
-         ],   
+         ],
          "extensions": [".js", ".jsx"]
       }
-    },
-},
+   },
+},   

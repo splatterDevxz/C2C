@@ -9,9 +9,9 @@ const Main = ()=>{
             <div className="container">
                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
                     <Col span={12}>
-                        <div id="">
+                        <div id="main-wrapper-content-xl">
                             <span id="upper-content-sub-main">
-                                C<span>2</span>C <span>Marketing</span>
+                                C<span className="span-blue">2</span>C <span>Marketing</span>
                             </span>
                             <h1>
                                 Our Clients
@@ -27,8 +27,8 @@ const Main = ()=>{
                                     Start-Up Enterprises
                                 </li>
                             </ul>
-                        </div>      
-                    </Col>
+                        </div>
+                    </Col> 
                     
                     <Col span={12}>
                         <div className="img-wrapper">
