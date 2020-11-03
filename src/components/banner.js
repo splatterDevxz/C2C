@@ -6,7 +6,7 @@ const Banner = () =>{
     return(
         <>
             <section id="banner-section">
-                <div className="container">
+                <div className="container" id="banner-container">
                     <div className="grid-two-col">
                         <div className="grid-child" id="heading-wrapper">
 

@@ -50,7 +50,7 @@ const Services = ()=>{
 				  		<IconServices
 			      			iconSVG={SM_ICON}
 			      			iconStyle={{background: "#FF8A65", boxShadow: "rgb(255 138 101 / 54%) 1px 9px 13px 0px"}}
-			      			iconHeading={`Social Media Campaign`}
+			      			iconHeading={`Social Media <span class="block-elem">Campaign</span>`}
 							iconInfo={`Create email sequences to move your ideal prospects subtly from a plain visitor to a hot buyer.`}
 			      		/>
 				    </Col>

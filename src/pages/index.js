@@ -10,7 +10,7 @@ import LowerMain from "components/lower-main"
 import Candely from "components/candely"
 
 
-const IndexPage = () => (
+const IndexPage = () => (	
   <Layout>
     <SEO title="Home" />
     <Banner/>
