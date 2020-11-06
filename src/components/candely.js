@@ -12,14 +12,14 @@ const Candely = ()=>{
 					    <Col span={12}>
 					     	<div className="candely-wrapper">
 						    	<span>
-						    		Candely
+						    		Contact us now
 						    	</span>
 						    	<h1>
-						    		Sounds good? Start Converting More While Spending Less!
+						    		Let’s take your business to the next level!
 						    	</h1>
 						    </div>
 			            </Col>
-					 	
+					 					
 					 	<Col span={12}>
 					 		<div className="candely-wrapper-button">
 						 		<p>Book an Absolutely Free Consultation HERE</p>

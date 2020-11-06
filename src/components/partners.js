@@ -1,12 +1,10 @@
 import React from "react"
-import AirBnB from "assets/images/logo/airbnb.png"
-import Bookgini from "assets/images/logo/bookgini.png"
-import Candely from "assets/images/logo/candely.png"
-import Google from "assets/images/logo/google-adwords-logo.png"
+import GreenConcepts from "assets/images/logo/green_concepts.webp"
+import CN_TECH from "assets/images/logo/cn_tech.jpeg"
 
 const Partners = ()=>{
     
-    const partLogo = [ AirBnB, Bookgini , Candely, Google]
+    const partLogo = [ GreenConcepts, CN_TECH]
     
     return(
         <>
@@ -16,7 +14,7 @@ const Partners = ()=>{
                         partLogo.map((e, i)=>
                             <span>
                                 <img 
-                                    src={e} 
+                                    src={e}
                                     alt="partner-logos"
                                 />
                             </span>

@@ -8,6 +8,7 @@
 @import "services";
 @import "main-content";
 @import "footer";
+@import "pages";
 
 
 body{
@@ -63,11 +64,9 @@ button{
 
 .button-defs{
     background: none;
-    border: 2px solid #007dd9;
     border-radius: 50px;
     padding: 2% 64px;
-
-    background: #007dd9;
+    background-image: linear-gradient(to bottom right, #bf30ef, #0072ff);
 
    
     a{

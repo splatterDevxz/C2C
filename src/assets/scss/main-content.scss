@@ -25,7 +25,7 @@
             list-style: none;
             font-size: 16px;
             margin: 30px 0;
-            font-size: 19px;
+            font-size: 16px;
             font-weight: bold;
             
             &:before {
@@ -138,14 +138,14 @@
 
 .candely-wrapper{
     span{
-        font-weight: 900;
+        font-weight: 700;
         font-size: 2rem;
         color: #03a9f4;
     }
 }
 
 .candely-wrapper-button{
-
+    
     padding: 4%;
 
     button{
@@ -171,4 +171,9 @@
         padding: 6% 0;
         margin: 0 !important;
     }
+}
+
+
+.about-upper-section{
+    padding: 5% 0;
 }

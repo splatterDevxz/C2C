@@ -10,7 +10,7 @@ const Navigation = () =>{
 				</span>
 				<ul>
 					<li>
-						<Link to="">
+						<Link to="/about">
 							About C2C
 						</Link>
 					</li>

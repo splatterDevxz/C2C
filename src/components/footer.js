@@ -15,9 +15,7 @@ const Footer = () =>{
 				      		<nav id="footer-navigation">
 				      			<h1>C<span className="span-blue">2</span>C Marketing Solutions</h1>
 				      			<p>
-				      				Conventional and digital
-									marketing strategies, established to help local and
-									international businesses.
+				      				Full-house marketing and digital services for entrepreneurs and solopreneurs
 				      			</p>
 				      			<ul>
 				      				<li>

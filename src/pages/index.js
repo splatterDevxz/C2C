@@ -1,5 +1,4 @@
 import React from "react"
-
 import Layout from "components/layout"
 import SEO from "components/seo"
 import Banner from "components/banner"
@@ -17,8 +16,9 @@ const IndexPage = () => (
     <Partners/>
     <Services/>
     <Main/>
-    <LowerMain/>	
+    <LowerMain/>
     <Candely/>
   </Layout>
 )
+
 export default IndexPage

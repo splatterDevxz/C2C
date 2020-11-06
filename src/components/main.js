@@ -24,7 +24,7 @@ const Main = ()=>{
                                     E-commerce Industry
                                 </li>
                                 <li>
-                                    Start-Up Enterprises
+                                   Self-Employed Professionals and Planners
                                 </li>
                             </ul>
                         </div>

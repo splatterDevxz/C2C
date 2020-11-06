@@ -2,9 +2,9 @@ import React from "react";
 
 import LowerComponent from "components/lower/lower-component";
 import FirstSvg from "assets/images/svg/diagnose_and_analyze.svg"
-import SecondSvg from "assets/images/svg/planning.svg"
+import FourthSvg from "assets/images/svg/planning.svg"
 import ThirdSvg from "assets/images/svg/execution_of_plan.svg"
-import FourthSvg from "assets/images/svg/measure.svg"
+import SecondSvg from "assets/images/svg/measure.svg"
 
 
 const LowerMain = ()=>{

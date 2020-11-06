@@ -13,17 +13,19 @@ const Banner = () =>{
                             <span className="span-tag">#Anti BandAid Solutions</span>
 
                             <h1>
-                                Conventional and Digital marketing strategies
+                                Full-house marketing and digital 
+                                services for entrepreneurs and solopreneurs
                             </h1>
+
                             <p>
-                                Whether your business function is E2E, B2B, or B2C, 
-                                you need to strengthen your brand image and establish 
-                                authority in your industry.
+                                Whether your business function is E2E, B2B, or B2C, you need to
+                                strengthen your brand image and establish authority in your
+                                industry.
                             </p>
 
                             <button className="button-defs">
                                 <Link to="">
-                                    Read More
+                                    LET’S START
                                 </Link>
                             </button>
                         </div> 

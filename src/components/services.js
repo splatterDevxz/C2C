@@ -23,8 +23,7 @@ const Services = ()=>{
                 </h1>
 				
                 <p className="sub-content">		
-                	We are your trusted arm in the fullfilment 
-                	of your promised to your client
+                	We are your trusted premier provider of innovate and dynamic marketing solutions to your ideal clients.
                 </p>
 
                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
@@ -37,16 +36,7 @@ const Services = ()=>{
 			      		/>
 			      	</Col>
 
-			      	<Col className="gutter-row" span={6}>
-			      		<IconServices
-			      			iconSVG={EC_ICON}
-			      			iconStyle={{background: "#7FCD63", boxShadow: "rgb(127 205 99 / 54%) 1px 9px 13px 0px"}}
-			      			iconHeading={`Email Creatives & Automation`}
-							iconInfo={`Create email sequences to move your ideal prospects subtly from a plain visitor to a hot buyer.`}
-			      		/>
-			      	</Col>
-
-				    <Col className="gutter-row" span={6}>
+				 	<Col className="gutter-row" span={6}>
 				  		<IconServices
 			      			iconSVG={SM_ICON}
 			      			iconStyle={{background: "#FF8A65", boxShadow: "rgb(255 138 101 / 54%) 1px 9px 13px 0px"}}
@@ -55,14 +45,6 @@ const Services = ()=>{
 			      		/>
 				    </Col>
 
-				    <Col className="gutter-row" span={6}>
-				     	<IconServices
-			      			iconSVG={FB_ICON}
-			      			iconStyle={{background: "#FFD037", boxShadow: "rgb(255 208 55 / 41%) 1px 9px 13px 0px"}}
-			      			iconHeading={`Funnel Building & Designing`}
-							iconInfo={`Create email sequences to move your ideal prospects subtly from a plain visitor to a hot buyer.`}
-			      		/>
-				    </Col>
 
 					<Col className="gutter-row" span={6}>
 			      		<IconServices
@@ -73,20 +55,41 @@ const Services = ()=>{
 			      		/>
 			      	</Col>
 
+					
 			      	<Col className="gutter-row" span={6}>
 			      		<IconServices
 			      			iconSVG={RM_ICON}
 			      			iconStyle={{background: "#FA4D4D", boxShadow: "rgb(250 77 77 / 41%) 1px 9px 13px 0px"}}
-			      			iconHeading={`Reputation <span class="block-elem">Management</span>`}
+			      			iconHeading={`Video <span class="block-elem">Content</span>`}
 							iconInfo={`Create email sequences to move your ideal prospects subtly from a plain visitor to a hot buyer.`}
 			      		/>
 			      	</Col>
+
+		
+
+				   	<Col className="gutter-row" span={6}>
+			      		<IconServices
+			      			iconSVG={EC_ICON}
+			      			iconStyle={{background: "#7FCD63", boxShadow: "rgb(127 205 99 / 54%) 1px 9px 13px 0px"}}
+			      			iconHeading={`Email <span class="block-elem">Creatives</span> & Automation`}
+							iconInfo={`Create email sequences to move your ideal prospects subtly from a plain visitor to a hot buyer.`}
+			      		/>
+			      	</Col>
+
+			      	<Col className="gutter-row" span={6}>
+				     	<IconServices
+			      			iconSVG={FB_ICON}
+			      			iconStyle={{background: "#FFD037", boxShadow: "rgb(255 208 55 / 41%) 1px 9px 13px 0px"}}
+			      			iconHeading={`Funnel<span class="block-elem"> Building</span> & Designing`}
+							iconInfo={`Create email sequences to move your ideal prospects subtly from a plain visitor to a hot buyer.`}
+			      		/>
+				    </Col>
 
 				    <Col className="gutter-row" span={6}>
 				  		<IconServices
 			      			iconSVG={WB_ICON}
 			      			iconStyle={{background: "#12E3FF", boxShadow: "rgb(18 227 255 / 22%) 1px 9px 13px 0px"}}
-			      			iconHeading={`Website Development <span class="block-elem">& Design</span>`}
+			      			iconHeading={`Website <span class="block-elem">Development</span> <span class="block-elem">& Design</span>`}
 							iconInfo={`Create email sequences to move your ideal prospects subtly from a plain visitor to a hot buyer.`}
 			      		/>
 				    </Col>
@@ -95,8 +98,12 @@ const Services = ()=>{
 				     	<IconServices
 			      			iconSVG={PR_ICON}
 			      			iconStyle={{background: "#575988", boxShadow: "rgb(87 89 136 / 32%) 1px 9px 13px 0px"}}
-			      			iconHeading={`Personal <span class="block-elem">Relation</span>`}
-							iconInfo={`Create email sequences to move your ideal prospects subtly from a plain visitor to a hot buyer.`}
+			      			iconHeading={`Client Engagement and<span class="block-elem">Brand Loyalty Programs</span>`}
+							iconInfo={
+								`Create email sequences to move
+								 your ideal prospects subtly from
+								 a plain visitor to a hot buyer.`
+							}
 			      		/>
 				    </Col>
 			    </Row>
