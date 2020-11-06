@@ -21,7 +21,7 @@ const Navigation = () =>{
 						</Link>
 					</li>
 					<li>
-						<Link to="contact">
+						<Link to="/contact">
 							contact
 						</Link>
 					</li>
