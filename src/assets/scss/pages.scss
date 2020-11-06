@@ -137,6 +137,8 @@
 
 #about-upper-section{
 	padding: 8% 0;
+    background: #f2fbff;
+    margin-bottom: 10%;
 }
 
 #accordions-wrapper{
@@ -144,6 +146,13 @@
     padding-left: 6%;
 
 	.wrapper-blocks{
+
+        background: #fff;
+        padding: 25px;
+        box-shadow: 1px 17px 34px 1px #eeeeee85;
+        margin-bottom: 8%;
+        height: 500px;
+
 		h1{
 		    line-height: 1.4;
 		 /*   color: #1890ff !important;*/
@@ -153,10 +162,10 @@
 		}
 
 		p{
-			font-size: 12px;
+			font-size: 14px;
 		}
 		img{
-			width: 23%;
+		    width: 52px;
 		}
 	}
 }
@@ -204,4 +213,207 @@
 
 .services-wrapper{
 	padding: 7% 0;
+}
+
+
+
+/*Contact*/
+.formInputs{
+    margin-top: 11px !important;
+    padding: 0.89em 0.246em !important;
+    border: 1px solid #cccccc !important;
+    color: #636363ee !important;
+    border-radius: 1px !important;
+    width: 100% !important;
+    max-width: 100%;
+    background: #ffffff;
+}
+
+#form-wrapper{
+	margin-top: 8%;
+}
+
+
+#form-wrapper, #textAreaContainer{
+    label{
+        display: block;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-bottom: 13px;
+        color: #000;
+    }
+}
+       
+.asterisk {
+	color: #fd1111;
+    padding: 7px;
+}
+
+.contactMessage{
+	font-size: 25px !important;
+    margin-bottom: 24px !important;	
+}
+
+.flexMainContainer{
+	margin: 71px 0;
+}
+
+.textArea{
+    height: 250px;
+    border: 1px solid #cecece;
+    width: 100%;
+    padding: 13px;
+}
+
+.abtiaryButton{
+    padding: 13px 74px;
+    border: none;
+    background: linear-gradient(to bottom right, #bf30ef, #0072ff);
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 39px;
+}
+
+.buttonContainer{
+	 text-align: center;
+}
+
+.notValidForm{
+    margin-top: 11px !important;
+    padding: 1px 6px !important;
+    border: 1px solid #ffa8a8ee !important;	
+    color: #636363ee !important;
+    border-radius: 1px !important;
+    width: 97% !important;
+    max-width: 100%;
+}
+
+.invalidMessage{
+    color: #e83f3f;	
+}
+
+.errorHandler{
+	background: #f18d8d;
+    padding: 18px;
+    margin-bottom: 45px;
+    border-radius: 7px;
+    color: #efff;
+}
+
+.spanErrorRequired{
+    color: #ff8a8a;
+}
+
+.CommentSection{
+    margin-bottom: 50px;
+}
+
+.content_body_paragraphs{
+    margin: 106px 0;
+    line-height: 2;
+}
+
+.booklinkBlocks{
+    background: none !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    line-height: normal !important;
+    height: auto; 
+    margin-top: 20px;
+    text-align: right;
+
+    span{
+        margin-right: 13px;
+        display: block;
+        margin-bottom: 16px;
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    li{
+        list-style: none;
+        display: inline-block;
+        padding: 0 4px;
+    }
+     
+    a{
+        text-decoration: none;
+        background: #b29e46;
+        padding: 4px 15px;
+        color: #fff;
+        font-size: 13px;
+    }
+}
+
+
+
+.disqus-container-bars{
+      margin-top: 87px;  
+}
+
+/*Forms*/
+.formSuccess{
+    background: #57c57e;
+    padding: 20px;
+    margin-bottom: 21px;
+    color: #ffffff;
+}
+
+.errorForm{
+    background: #ffd7d7;
+    padding: 20px;
+    margin-bottom: 21px;
+    color: #ff5a5a;
+}
+
+.flex-container-fx{
+    max-width:1000px;
+    margin:0 auto;
+    padding: 0 12px;
+}
+
+
+.subcontent-contact-para{
+	margin: 10px 0 !important;
+    color: #888e;
+}
+
+#contact-info{
+    
+    margin-top: 15%;
+    padding: 37px;
+    background: #031c26;
+    box-shadow: 1px 5px 14px 6px #f0f0f0ee;
+
+    img{
+        width: 100%;
+    }
+
+    h4{
+        font-size: 4rem;
+    }
+
+    h1{ 
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        color: #fff !important;
+        margin: 2% 0;
+    }
+
+    p{
+        margin: 0!important;
+        color: #ffffff54;
+        margin-bottom: 15% !important;
+    }
+}
+
+#contact-navlist{
+    padding: 10%;
+    display: flex;
+    color: #fff;
+    li{
+        list-style-type:none;
+        padding: 0 11px;
+    }
 }

@@ -4,11 +4,10 @@ import Banner from "components/non-front-banner"
 import BG from "assets/images/svg/about_us.svg"
 import InfoBox from "components/candely";
 import {Row, Menu, Col, Collapse} from "antd"
-import Blocks from "components/blocks/block"
+import Blocks from "components/blocks/block"	
 
 
 /*icons*/
-
 import Goal from "assets/images/svg/goal.svg";
 import WWD from "assets/images/svg/what_we_do.svg";
 import WWH from "assets/images/svg/who_we_help.svg";

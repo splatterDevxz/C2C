@@ -2,11 +2,10 @@
 #header{
     background: #ffffff;
     margin-bottom: 1.45rem;
-    box-shadow: 1px 17px 12px 1px #eeeeee85;
+    box-shadow: 1px 17px 34px 1px #eeeeee85;
 }
 
 #navigation{
-
     display: grid;
     grid-template-columns: 45% 1fr; 
     padding: 3% 0;
@@ -39,5 +38,11 @@
                 }
             }
         }
+    }
+}
+
+#logo-span{
+    img{
+        width: 64px;
     }
 }
