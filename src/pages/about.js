@@ -3,9 +3,24 @@ import Layout from "components/layout"
 import Banner from "components/non-front-banner"
 import BG from "assets/images/svg/about_us.svg"
 import InfoBox from "components/candely";
-import {Row, Col} from "antd"
+import {Row, Menu, Col, Collapse} from "antd"
+import Blocks from "components/blocks/block"
+
+
+/*icons*/
+
+import Goal from "assets/images/svg/goal.svg";
+import WWD from "assets/images/svg/what_we_do.svg";
+import WWH from "assets/images/svg/who_we_help.svg";
+import WCU from "assets/images/svg/why_choose_us.svg";
+
 
 const About = () =>{
+
+	function callback(key) {
+	  console.log(key);
+	}
+
 	return(
 		<>
 			<Layout>
@@ -15,27 +30,89 @@ const About = () =>{
 					banrClass="about_us_banner"
 					bgImg={BG}
 				/>
-
-				<section id="about-upper-section">
-					<div className="container">
-						<Row gutter={20}>
-							<Col span={10}>
-								<div>
-									<h1>Create2Convert Marketing Solutions</h1>
-									<p>
-										is a marketing
-										firm which applies both conventional and digital
-										marketing strategies, established to help local and
-										international businesses.
-									</p>
-								</div>
-							</Col>
-						</Row>
-					</div>
-				</section>
-
-
+		
 				<section className="about-us-page-content">
+					<section id="about-upper-section">
+							<div className="container">
+								<Row gutter={20}>
+									<Col span={8}>
+										<div className="introduction-about-c2c">
+											<h1>Create2Convert Marketing Solutions</h1>
+											<p>
+												is a marketing
+												firm which applies both conventional and digital
+												marketing strategies, established to help local and
+												international businesses.
+											</p>
+										</div>
+									</Col>
+									<Col span={14}>
+										<div id="accordions-wrapper">
+											<Row gutter={20}>
+												<Blocks
+													title="Services for All Business Type"
+													icon={Goal}
+													body={
+														`
+															Whatever your goal is for your business, whether
+															you want to get more prospects, create brand
+															awareness, provide effective solutions to your
+															clients, establish authority, or do everything
+															simultaneously, C2C Marketing Solutions is your
+															best arm in making it happen.
+														`
+													}
+												/>
+
+												<Blocks
+													title="What We Do"
+													icon={WWD}
+													body={
+														`
+															We are a marketing firm with dedicated team of
+															professionals and well-versed experts in their
+															respective field who can take care of every
+															marketing needs for you, while you focus on
+															growing your business further. We help you
+															transform your business from the industrial to the
+															information age and become globally competitive.
+														`
+													}
+												/>
+
+												<Blocks
+													title="Who We Help?"
+													icon={WWH}
+													body={
+														`
+															We help different types of business whether you
+															are a start-up or have already established a client-
+															based and would love to increase more your
+															business potential, we are your partner to success.
+														`
+													}
+												/>
+
+												<Blocks
+													title="Why Choose Us"
+													icon={WCU}
+													body={
+														`
+															We are your trusted arm in the fulfillment of your
+															promised services to your clients. Our focus is
+															centered towards providing quality service and
+															increasing the revenue of your company with the
+															value of our work.
+														`
+													}
+												/>
+										</Row>
+									</div>
+								</Col>
+							</Row>
+						</div>
+					</section>
+
 					<div className="container">
 						<Row gutter={20}>
 							<Col span={10}>
@@ -123,7 +200,6 @@ const About = () =>{
 								</Col>
 							</Row>
 						</section>
-
 					</div> 
 				</section>
 

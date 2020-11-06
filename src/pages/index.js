@@ -20,5 +20,6 @@ const IndexPage = () => (
     <Candely/>
   </Layout>
 )
-
+		
 export default IndexPage
+					

@@ -22,7 +22,9 @@
 	    }
 
 	    .span-blue{
-	        color: #60bdff;
+	   	    background: -webkit-linear-gradient(#963df2, #0084ff);
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
 	    }
 	}
 
@@ -32,14 +34,13 @@
 	    letter-spacing: 7px;
 	    color: #60bdff;
     }
-}	
-
+}
 
 .about_us_banner{
 	img{
 		width: 600px;
 	    padding: 7%;
-	    transform: translateX(-18%);
+	    transform: translateX(-25%);
 	}
 }
 
@@ -84,6 +85,7 @@
 
 .our-team-contents{
 	padding: 9% 0;
+	border-bottom: 1px solid #eeee;
 }
 
 .sub-heading{
@@ -116,5 +118,47 @@
 
 .content-wrapper-info{
 	padding-left: 21%;
+}
+
+#about-upper-section{
+	padding: 8% 0;
+}
+
+#accordions-wrapper{
+    
+    padding-left: 6%;
+
+	.wrapper-blocks{
+		h1{
+		    line-height: 1.4;
+		 /*   color: #1890ff !important;*/
+		   /* background: -webkit-linear-gradient(#963df2, #0084ff);
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;*/
+		}
+
+		p{
+			font-size: 12px;
+		}
+		img{
+			width: 23%;
+		}
+	}
+}
+		
+	
+.introduction-about-c2c{
+	p{
+		font-style: italic;
+    	font-size: 14px;
+	}
+	h1{
+		font-size: 2rem;
+	    line-height: 1.2;
+	    font-weight: 700;
+	    background: -webkit-linear-gradient(#9a38ff, #0084ff);
+	    -webkit-background-clip: text;
+	    -webkit-text-fill-color: transparent;
+	}
 }
 

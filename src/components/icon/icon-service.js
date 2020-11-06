@@ -16,7 +16,7 @@ const IconServices = ({
 				</span>
 
 				<h2 dangerouslySetInnerHTML={{__html: iconHeading}} />
-				
+			
 				<p>
 					{iconInfo}
 				</p>

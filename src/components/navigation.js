@@ -16,13 +16,13 @@ const Navigation = () =>{
 					</li>
 
 					<li>
-						<Link to="">
+						<Link to="/services">
 							Services
 						</Link>
 					</li>
 					<li>
-						<Link to="">
-							Contact
+						<Link to="contact">
+							contact
 						</Link>
 					</li>
 				</ul>
