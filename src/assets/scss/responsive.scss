@@ -15,12 +15,24 @@
 		    flex-direction: column;
 		    top: 0;
 		    z-index: 10;
+
+		    li{
+		    	a{
+		    	    color: #000000;
+				    text-decoration: none;
+				    font-size: 1.5rem;	
+		    	}
+		    }
  		}
+ 	}
+
+ 	#burger-container{
+ 		display: block !important;
  	}
 
  	#banner-section{
  		
- 		padding: 0 13% !important;
+ 	    padding: 13% !important;
 
  		#banner-container{
  			margin: 0 auto;
@@ -196,9 +208,9 @@
 	.social-media-container{
 		display: flex;
 	    flex-direction: row;
-	    margin: 10% auto;
+	    margin: 10% auto !important;
 	    justify-content: space-between;
-	    width: 71%;
+	    width: 71% !important;
 	}
 
 	#section-services{

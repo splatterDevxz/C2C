@@ -60,10 +60,10 @@ const Footer = () =>{
 				      					<a href="https://twitter.com/Create2C?fbclid=IwAR28xIuEwvAuXYBGh27YrqxXjC71_nCKObmMF8ateCycvJUwauHl9qSV1HY">
 				      						<TwitterOutlined/>
 				      					</a>
-				      				</li>
+				      				</li>	
 
 									<li>
-				      					<a href="https://www.linkedin.com/in/c2c-marketing-solutions-4a232b200/?fbclid=IwAR0ejxruCdwXV2jAcSUOkZvcdKCuZ_FiACaeVDJMJVlkjWZUzNp5HKN9iP8">
+				      					<a href="https://www.linkedin.com/in/C2C-Marketing-Solutions-118234263430713ng-solutions-4a232b200/?fbclid=IwAR0ejxruCdwXV2jAcSUOkZvcdKCuZ_FiACaeVDJMJVlkjWZUzNp5HKN9iP8">
 				      						<LinkedinOutlined />
 				      					</a>
 				      				</li>	

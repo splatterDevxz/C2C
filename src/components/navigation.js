@@ -1,23 +1,24 @@
-import React from "react"
+import React, {useState} from "react"
 import {Link} from "gatsby"
 import Logo from "assets/images/logo/logo.png"
 
 const Navigation = () =>{
 
-	const navBurger = (e)=>{
 
-	}
+	const [toggle, togglFunc] = useState(false)
+	console.log(toggle);
 
-
-	return(	
+	return(
 		<>
 			<div className="container">
 				<nav id="navigation">
+					
 					<span id="logo-span">
 						<Link to="/">
 							<img src={Logo} alt="main_logo"/>
 						</Link>
 					</span>
+
 					<ul>
 						<li>
 							<Link to="/about">
@@ -37,10 +38,15 @@ const Navigation = () =>{
 						</li>
 					</ul>
 
-					<div id="burger-container" onClick={()=>navBurger}>
+
+					<div 
+					  id="burger-container" 
+					  onClick={()=>togglFunc(!toggle)}>
+
 					  <div className="bar1"></div>
 					  <div className="bar2"></div>
 					  <div className="bar3"></div>
+
 					</div>
 
 				</nav>
