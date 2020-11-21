@@ -43,7 +43,7 @@ const LowerMain = ()=>{
 							}
 							imgSrc={SecondSvg}
 						/>
-
+						
 						<LowerComponent
 							title="Execution of the Plan"
 							isOrder={false}
