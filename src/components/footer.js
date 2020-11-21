@@ -3,15 +3,17 @@ import { Row, Col } from 'antd'
 import {Link} from "gatsby" 
 import { FacebookOutlined, TwitterOutlined, InstagramOutlined, LinkedinOutlined   } from '@ant-design/icons';
 import Newsletter from "./forms/newsletter"
+
+
 const Footer = () =>{
 
 	return(
-		<>
+		<>		
 			<section id="footer">
 				<div className="container">
 					
 	                <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-				      	<Col className="gutter-row" span={12}>
+				      	<Col className="gutter-row" xl={12} lg={12} md={24, {order:1}} sm={24, {order:1}}  xs={24, {order:1}}>
 				      		<nav id="footer-navigation">
 				      			<h1>C<span className="span-blue">2</span>C Marketing Solutions</h1>
 				      			<p>
@@ -70,7 +72,7 @@ const Footer = () =>{
 				      		</nav>
 				      	</Col>
 
-				      	<Col span={12}>
+				      	<Col xl={12} lg={12} md={24} sm={24} xs={24}>
 				      		<div id="newsletter-form">
 				      			<Newsletter/>	
 				      		</div>

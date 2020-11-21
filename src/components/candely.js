@@ -2,6 +2,7 @@ import React from "react"
 import { Row, Col } from 'antd'
 import { Link } from "gatsby"
 
+
 const Candely = ()=>{
 	return(
 		<>
@@ -9,7 +10,7 @@ const Candely = ()=>{
 				<div className="container">
 					<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} >
 
-					    <Col span={12}>
+					    <Col xl={12} lg={12} md={24} sm={24} xs={24}  >
 					     	<div className="candely-wrapper">
 						    	<span>
 						    		Contact us now
@@ -19,8 +20,8 @@ const Candely = ()=>{
 						    	</h1>
 						    </div>
 			            </Col>
-					 					
-					 	<Col span={12}>
+					 	
+					 	<Col xl={12} lg={12} md={24} sm={24} xs={24}>
 					 		<div className="candely-wrapper-button">
 						 		<p>Book an Absolutely Free Consultation HERE</p>
 						 		

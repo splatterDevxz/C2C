@@ -30,14 +30,18 @@ const LowerComponent = ({
 		    		 		paddingRight:'0'
 		    		 	}
 		    		}
+
+		    	className="parent-img-container"
 		    	>
 
             	<div className="lower-img-wrapper">
                		<img src={imgSrc}/>
                 </div>
             </Col>
-		 	
-		 	<Col span={12} style={{paddingLeft:'0', paddingRight:'0'}}>
+		 		
+		 	<Col 
+		 		xl={12} lg={12} md={24} sm={24} xs={24} 
+		 		style={{paddingLeft:'0', paddingRight:'0'}} className="parent-content-grid">
 		 		<div className="content-lower-wrapper">
 		 			<h1>{title}</h1>
 		 			<p>{

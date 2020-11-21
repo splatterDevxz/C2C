@@ -27,7 +27,7 @@ const Services = ()=>{
                 </p>
 
                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-			      	<Col className="gutter-row" span={6}>
+			      	<Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24} >
 			      		<IconServices
 			      			iconSVG={CW_ICON}
 			      			iconStyle={{background: "#6C63FF", boxShadow: "rgb(70 61 212 / 24%) 1px 9px 13px 0px"}}
@@ -36,7 +36,7 @@ const Services = ()=>{
 			      		/>
 			      	</Col>
 
-				 	<Col className="gutter-row" span={6}>
+				 	<Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24} >
 				  		<IconServices
 			      			iconSVG={SM_ICON}
 			      			iconStyle={{background: "#FF8A65", boxShadow: "rgb(255 138 101 / 54%) 1px 9px 13px 0px"}}
@@ -46,7 +46,7 @@ const Services = ()=>{
 				    </Col>
 
 
-					<Col className="gutter-row" span={6}>
+					<Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24} >
 			      		<IconServices
 			      			iconSVG={LG_ICON}
 			      			iconStyle={{background: "#FF6584", boxShadow: "rgb(255 101 132 / 35%) 1px 9px 13px 0px"}}
@@ -56,7 +56,7 @@ const Services = ()=>{
 			      	</Col>
 
 					
-			      	<Col className="gutter-row" span={6}>
+			      	<Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24} >
 			      		<IconServices
 			      			iconSVG={RM_ICON}
 			      			iconStyle={{background: "#FA4D4D", boxShadow: "rgb(250 77 77 / 41%) 1px 9px 13px 0px"}}
@@ -67,7 +67,7 @@ const Services = ()=>{
 
 		
 
-				   	<Col className="gutter-row" span={6}>
+				   	<Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24}>
 			      		<IconServices
 			      			iconSVG={EC_ICON}
 			      			iconStyle={{background: "#7FCD63", boxShadow: "rgb(127 205 99 / 54%) 1px 9px 13px 0px"}}
@@ -76,7 +76,7 @@ const Services = ()=>{
 			      		/>
 			      	</Col>
 
-			      	<Col className="gutter-row" span={6}>
+			      	<Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24}>
 				     	<IconServices
 			      			iconSVG={FB_ICON}
 			      			iconStyle={{background: "#FFD037", boxShadow: "rgb(255 208 55 / 41%) 1px 9px 13px 0px"}}
@@ -85,7 +85,7 @@ const Services = ()=>{
 			      		/>
 				    </Col>
 
-				    <Col className="gutter-row" span={6}>
+				    <Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24}>
 				  		<IconServices
 			      			iconSVG={WB_ICON}
 			      			iconStyle={{background: "#12E3FF", boxShadow: "rgb(18 227 255 / 22%) 1px 9px 13px 0px"}}
@@ -94,7 +94,7 @@ const Services = ()=>{
 			      		/>
 				    </Col>
 
-				    <Col className="gutter-row" span={6}>
+				    <Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24}>
 				     	<IconServices
 			      			iconSVG={PR_ICON}
 			      			iconStyle={{background: "#575988", boxShadow: "rgb(87 89 136 / 32%) 1px 9px 13px 0px"}}

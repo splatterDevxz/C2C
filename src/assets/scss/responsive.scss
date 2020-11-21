@@ -1,0 +1,150 @@
+@media only screen and (max-width: 990px) {
+ 
+ 	#banner-section{
+ 		
+ 		padding: 0 13% !important;
+
+ 		#banner-container{
+ 			margin: 0 auto;
+    		max-width: 700px;
+
+    		.grid-two-col{
+    			grid-template-columns: auto;
+    		}
+ 		}
+
+ 		#heading-wrapper{
+ 			order:1;
+ 		}
+
+ 		#__svg_img_banner{
+ 			text-align: center;
+
+ 			img{
+ 				width: 50%;
+ 			}
+ 		}
+ 	}
+
+ 	#main-section{
+ 	    padding: 0 100px !important;
+
+ 		ul{
+ 			margin: 0 !important;
+ 			padding: 0 !important;
+ 			li{
+ 				&:before{
+    				transform: translate(-27px, 12px) !important;
+ 				}
+ 			}
+ 		}
+
+ 		.img-wrapper{
+ 			text-align: center;
+ 			img{
+ 				width: 100%;
+ 			}
+ 		}
+ 	}
+
+ 	.partners-branding,
+ 	.section-lower-main{
+ 		padding: 0 13% !important;
+ 	}
+
+ 	#candely-section{
+ 		padding: 13% !important;
+ 	}
+
+ 	#section-services{
+ 		padding: 0 13%;
+
+ 		.icon-service{
+ 			text-align: center;
+
+ 			span{
+ 				margin: 0% auto !important;
+ 			}
+ 		}
+
+ 		h2{
+ 			margin-top: 2%;
+ 		}
+ 	}
+
+	.parent-content-grid{
+		order: 1 !important;
+	}
+
+	.image-lower-parent{
+		display: none;
+	}
+
+	.lower-img-wrapper{
+		margin: 16% 0;
+	}	
+
+	.candely-wrapper-button{
+		&:before{
+			content: ""!important;
+		    height: 2px !important;
+		    width: 87% !important;
+		    display: block !important;
+		    position: absolute !important;
+		    transform: translate(0px, 0px) !important;
+		    background: #03a9f426 !important;
+		}
+	}
+
+	#footer{
+		padding: 13% !important;
+	}	
+}
+
+@media only screen and (max-width: 650px) {
+	
+	.content-lower-wrapper{
+		padding: 40px !important;
+	}
+
+	.section-lower-main{
+		 #heading-lower-main{
+		 	font-size: 1rem !important;
+		 	   span{
+		 	    	font-size: 2rem !important; 
+		 	   }
+		 }
+	}
+
+	.content-lower-wrapper{
+		h1{
+			line-height: 1.2;
+		}
+	}
+
+	.section-lower-main{
+		 #heading-lower-main{
+		 	&:before{
+		 		content: "";
+			    width: 21%;
+			    height: 3px;
+			    display: block;
+			    background: #03a9f44a;
+			    margin-bottom: 9%;
+		 	}
+		}
+	}
+
+	#heading-wrapper{
+		h1{
+			font-size: 2em;
+		}
+	}
+	
+	.partners-branding{
+		#partners-content{
+			font-size: 15px !important;
+   			text-align: center;
+		}
+	}
+}		

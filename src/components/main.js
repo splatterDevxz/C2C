@@ -8,7 +8,7 @@ const Main = ()=>{
         <section id="main-section">
             <div className="container">
                 <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-                    <Col span={12}>
+                    <Col xl={12} lg={12} md={24, {order:1}} sm={24, {order:1}}  xs={24, {order:1}}  >
                         <div id="main-wrapper-content-xl">
                             <span id="upper-content-sub-main">
                                 C<span className="span-blue">2</span>C <span>Marketing</span>
@@ -33,7 +33,7 @@ const Main = ()=>{
                         </div>
                     </Col> 
                     
-                    <Col span={12}>
+                    <Col xl={12} lg={12} md={24} sm={24} xs={24}>
                         <div className="img-wrapper">
                             <img src={MBB} alt="bg-main"/>
                         </div>
