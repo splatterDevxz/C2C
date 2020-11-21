@@ -3,10 +3,16 @@ import {Link} from "gatsby"
 import Logo from "assets/images/logo/logo.png"
 
 const Navigation = () =>{
+
+	const navBurger = (e)=>{
+
+	}
+
+
 	return(	
 		<>
 			<div className="container">
-			<nav id="navigation">
+				<nav id="navigation">
 					<span id="logo-span">
 						<Link to="/">
 							<img src={Logo} alt="main_logo"/>
@@ -16,7 +22,7 @@ const Navigation = () =>{
 						<li>
 							<Link to="/about">
 								About C2C
-							</Link>	
+							</Link>
 						</li>
 
 						<li>
@@ -30,6 +36,13 @@ const Navigation = () =>{
 							</Link>
 						</li>
 					</ul>
+
+					<div onClick={()=>navBurger}>
+					  <div className="bar1"></div>
+					  <div className="bar2"></div>
+					  <div className="bar3"></div>
+					</div>
+
 				</nav>
 			</div>
 		</>
