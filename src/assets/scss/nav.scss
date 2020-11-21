@@ -47,16 +47,14 @@
     }
 }
 
-
-
-.burger-container{
-    position: absolute;
+.burger-container{  
+    position: absolute; 
     right: 5%;
     top: 26px;
     padding: 12px;
     background: #c890f7;
     background-image: linear-gradient(to bottom right, #bf30ef, #0072ff);
-}
+} 
 
 .bar1, .bar2, .bar3 {
     width: 24px;
