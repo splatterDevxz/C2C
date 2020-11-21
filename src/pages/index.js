@@ -12,7 +12,7 @@ import Candely from "components/candely"
 const IndexPage = () => (	
   <Layout> 
     <SEO title="Home" />
-    <Banner/>
+    <Banner/> 
     <Partners/>
     <Services/>
     <Main/>

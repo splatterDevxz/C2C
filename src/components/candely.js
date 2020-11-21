@@ -3,12 +3,12 @@ import { Row, Col } from 'antd'
 import { Link } from "gatsby"
 
 
-const Candely = ()=>{
+const Candely = ()=>{	
 	return(
 		<>
-			<section id="candely-section">
+			<section id="candely-section">		
 				<div className="container">
-					<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }} >
+					<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
 
 					    <Col xl={12} lg={12} md={24} sm={24} xs={24}  >
 					     	<div className="candely-wrapper">

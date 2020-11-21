@@ -8,10 +8,9 @@ import Newsletter from "./forms/newsletter"
 const Footer = () =>{
 
 	return(
-		<>		
+		<>
 			<section id="footer">
-				<div className="container">
-					
+				<div className="container">				
 	                <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
 				      	<Col className="gutter-row" xl={12} lg={12} md={24, {order:1}} sm={24, {order:1}}  xs={24, {order:1}}>
 				      		<nav id="footer-navigation">
