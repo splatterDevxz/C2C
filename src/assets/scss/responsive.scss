@@ -57,7 +57,8 @@
  	}
 
  	#main-section{
- 	    padding: 0 19% !important;
+ 	   
+ 	    padding: 19% !important;
 
  		ul{
  			margin: 0 !important;
@@ -158,6 +159,13 @@
 		display: none !important;
 	}
 
+
+	#main-section {
+		h1{
+			font-size: 2rem;
+			margin: 17% 0;
+		}
+	}
 	#logo-span{
 		img{
 			width: 91px !important;
