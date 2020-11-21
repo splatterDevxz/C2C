@@ -63,11 +63,10 @@ const LowerMain = ()=>{
 							isOrder={true}
 							content={
 							`
-								We will do extensive market research with your
-								competition and your target audiences. Through
-								this, we’d be able to assign the right team who are
-								well-versed in consumer psychology to deliver the
-								necessary solution.
+								We will study
+								the data and interpret the results 
+								to identify your company’s key points and
+								weaknesses.
 							`
 							}
 							imgSrc={FourthSvg}

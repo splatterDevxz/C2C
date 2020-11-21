@@ -26,6 +26,9 @@ const Main = ()=>{
                                 <li>
                                    Self-Employed Professionals and Planners
                                 </li>
+                                <li>
+                                   Course Creators, Coaches, and Online Entrepreneurs
+                                </li>
                             </ul>
                         </div>
                     </Col> 

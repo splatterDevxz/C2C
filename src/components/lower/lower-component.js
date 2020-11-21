@@ -53,7 +53,7 @@ const LowerComponent = ({
 
 LowerComponent.propTypes= {
 	content : PropTypes.string,
-	imgSrc : PropTypes.object,
+	imgSrc : PropTypes.string,
 	title : PropTypes.string,
 	isOrder :PropTypes.bool
 }

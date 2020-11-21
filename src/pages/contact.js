@@ -40,7 +40,7 @@ const Contact = ()=>{
 									 Thingking of Creating
 									 those digital marketing 
 									 efforts to reality? 
-									 Lets talk. 
+									 Let's talk. 
 									 We Can Help
 								 </p>
 								<img src={IconContact} alt="contac_icon" />
@@ -71,7 +71,7 @@ const Contact = ()=>{
 											<div className="column is-half">
 										
 											<Inputs 
-												name="fullname" 
+												name="first Name" 
 												type="text" />
 
 											<Inputs

@@ -1,6 +1,6 @@
 import React from "react"
 import {Link} from "gatsby"
-import Logo from "assets/images/svg/main_logo.svg"
+import Logo from "assets/images/logo/logo.png"
 
 const Navigation = () =>{
 	return(	

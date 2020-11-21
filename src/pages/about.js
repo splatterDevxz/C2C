@@ -136,6 +136,10 @@ const About = () =>{
 										consistently for continuous progress, and we are staying together
 										for success. We are accountable to one another.
 									</p>
+
+									<p>
+										Excellence – We strive to deliver quality and exceptional results.
+									</p>
 								</div>	
 							</Col>
 
@@ -182,18 +186,14 @@ const About = () =>{
 
 									<div className="content-wrapper-info">
 										<p>
-											If you want to get more prospects, create brand awareness,
-											provide effective services to your clients, establish authority, or
-											do everything simultaneously, C2C Marketing Solutions is your
-											best arm in making it happen.
-										</p>
-										<p>
-											We have a team of experts with strong business acumen who will
-											extensively conduct market research in order for us to determine
-											the appropriate and effective solutions for your business. If you
-											believe there is still something you need to do to thrive in your
-											business faster than your competition, we would love to connect
-											with you for an absolutely free business consultation.
+											We are a group of sincere individuals gathered towards one common goal,
+											which is to help our clients get the results they set for themselves and their
+											companies through our combined skills and expertise. We have a team of experts with strong 
+											business acumen who will extensively conduct market research
+											for us to determine the appropriate and effective solutions for your business.
+											If you believe there is still something you need to do to thrive in your business
+											faster than your competition, we would love to
+											connect with you for a free business consultation.
 										</p>
 									</div>
 								</Col>

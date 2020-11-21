@@ -66,8 +66,7 @@
 	.block{			
 		padding: 8%;
     	border-radius: 13px;
-
-    	height: 450px;
+    	height: 500px;
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: flex-end;
@@ -137,16 +136,16 @@
 
 #about-upper-section{
 	padding: 8% 0;
-    background: #f2fbff;
+    background: #d6e7efc9;
     margin-bottom: 10%;
 }
 
 #accordions-wrapper{
     
-    padding-left: 6%;
+    padding-left: 3%;
 
 	.wrapper-blocks{
-
+        
         background: #fff;
         padding: 25px;
         box-shadow: 1px 17px 34px 1px #eeeeee85;

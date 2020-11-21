@@ -39,9 +39,9 @@ const Services = () =>{
 							
 							<p>
 								We are your trusted premier provider 
-								of innovate and dynamic marketing solutions
+								of innovative and dynamic marketing solutions
 								to your ideal clients.
-							</p>	
+							</p>
 						</div>
 
 						<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>

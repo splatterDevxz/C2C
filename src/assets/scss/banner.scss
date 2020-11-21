@@ -7,7 +7,7 @@
 #banner-container{
     border-bottom: 1px solid #e8e2e2ee;
     padding-bottom: 8%;
-}
+}   
 
 #banner-section{
     padding: 6% 0;
@@ -49,6 +49,15 @@
     img{
         width: 220px;
         padding: 0 9%;
+    }
+
+    #partners-content{
+        font-size: 20px;
+
+        span{
+            font-style: italic;
+            font-weight: 700;
+        }
     }
 }
 
