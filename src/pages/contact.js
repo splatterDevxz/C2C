@@ -35,14 +35,17 @@ const Contact = ()=>{
 					<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
 						<Col id="info-contact" xl={12} lg={12} md={12} sm={24}  xs={24} >
 							<div id="contact-info">
+								
 								<h1>Contact Us</h1>
+								
 								<p>
 									 Thingking of Creating
-									 those digital marketing 
+									 those digital marketing
 									 efforts to reality? 
 									 Let's talk. 
 									 We Can Help
 								 </p>
+
 								<img src={IconContact} alt="contac_icon" />
 
 								<nav id="contact-navlist">

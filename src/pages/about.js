@@ -80,7 +80,7 @@ const About = () =>{
 													}
 												/>
 
-												<blocks
+												<Blocks
 													title="Who We Help?"
 													icon={WWH}
 													body={

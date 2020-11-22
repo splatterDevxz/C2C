@@ -10,7 +10,7 @@ const Block = ({
 
 	return(
 		<>	
-			<Col xl={12} lg={12} md={12} sm={24} xs={24} >
+			<Col className="ant-column-wraps" xl={12} lg={12} md={12} sm={24} xs={24} >
 				<div className="wrapper-blocks">
 					<span><img alt="icon" src={icon}/></span>
 					<h1>{title}</h1>

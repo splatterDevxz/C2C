@@ -11,12 +11,12 @@ const ServiceBlock = ({
 
 
 	function createMarkup(tag) { 
-		return {__html: tag}; 
+		return {__html: tag};
 	};
 
 	return(
 		<>
-			<Col span={12}>
+			<Col xl={12} lg={12} md={12} sm={24} xs={24}>
 				<div className="service-block" style={bg}>
 					<span><img src={icon}/></span>
 					<h1>{heading}</h1>

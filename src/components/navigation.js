@@ -4,22 +4,21 @@ import Logo from "assets/images/logo/logo.png"
 
 const Navigation = () =>{
 
+	const [ isOpenToggle, toggleFunc] = useState(false)
 
-	const [toggle, togglFunc] = useState(false)
-	console.log(toggle);
 
 	return(
 		<>
 			<div className="container">
 				<nav id="navigation">
-						
+					
 					<span id="logo-span">
 						<Link to="/">
 							<img src={Logo} alt="main_logo"/>
 						</Link>
 					</span>
 
-					<ul>
+					<ul style={{display : `${isOpenToggle ? 'none' : 'flex !important' }`}} >
 						<li>
 							<Link to="/about">
 								About C2C
@@ -41,12 +40,10 @@ const Navigation = () =>{
 
 					<div 
 					  id="burger-container" 
-					  onClick={()=>togglFunc(!toggle)}>
-
-					  <div className="bar1"></div>
+					  onClick={()=>toggleFunc(!isOpenToggle)}>
+					  <div className="bar1"></div>	
 					  <div className="bar2"></div>
 					  <div className="bar3"></div>
-
 					</div>
 
 				</nav>
