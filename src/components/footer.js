@@ -12,7 +12,8 @@ const Footer = () =>{
 			<section id="footer">
 				<div className="container">				
 	                <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-				      	<Col className="gutter-row" xl={12} lg={12} md={24, {order:1}} sm={24, {order:1}}  xs={24, {order:1}}>
+
+				      	<Col className="gutter-row footer-nav-container" xl={12} lg={12} md={12} sm={24}  xs={24}>
 				      		<nav id="footer-navigation">
 				      			<h1>C<span className="span-blue">2</span>C Marketing Solutions</h1>
 				      			<p>
@@ -33,7 +34,7 @@ const Footer = () =>{
 
 				      				<li>
 					      				<Link to="/services">
-					      					Services
+					      					services
 					      				</Link>
 				      				</li>
 				      				<li>
@@ -73,9 +74,10 @@ const Footer = () =>{
 
 				      	<Col xl={12} lg={12} md={24} sm={24} xs={24}>
 				      		<div id="newsletter-form">
-				      			<Newsletter/>	
+				      			<Newsletter/>
 				      		</div>
 				      	</Col>
+
 				     </Row>
 
 				</div>

@@ -10,13 +10,13 @@ const Block = ({
 
 	return(
 		<>	
-			<Col span={12}>
+			<Col xl={12} lg={12} md={12} sm={24} xs={24} >
 				<div className="wrapper-blocks">
 					<span><img alt="icon" src={icon}/></span>
 					<h1>{title}</h1>
-					<p>{body}</p>
+					<p>{body}</p>	
 				</div>
-			</Col>
+			</Col>	
 		</>
 	)
 }

@@ -16,26 +16,28 @@ const NFB = ({
 
 	return(
 		<>
-			<div className="container">
-				<Row>
-					<Col span={12}>
-						<div className="about-heading-wrapper">
-							<div 
-								dangerouslySetInnerHTML={createMarkup(heading)} />
-							<span className="subheading">{subheading}</span>
-						</div>
-					</Col>
+			<section id="banner-non-front">
+				<div className="container">
+					<Row>
+						<Col  xl={8} lg={8} md={12} sm={24}  xs={24} >
+							<div className="about-heading-wrapper">
+								<div 
+									dangerouslySetInnerHTML={createMarkup(heading)} />
+								<span className="subheading">{subheading}</span>
+							</div>
+						</Col>
 
-					<Col span={12}>
-						<div className={`${banrClass}`}>
-							<img 
-								alt="illustration_image" 
-								src={bgImg}
-							/>
-						</div>
-					</Col>
-				</Row>
-			</div>
+						<Col span={12}>
+							<div className={`${banrClass}`}>
+								<img 
+									alt="illustration_image" 
+									src={bgImg}
+								/>
+							</div>
+						</Col>
+					</Row>
+				</div>
+			</section>
 		</>
 	)			
 }

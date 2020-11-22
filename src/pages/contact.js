@@ -31,9 +31,9 @@ const Contact = ()=>{
 	return(
 		<>
 			<Layout>
-				<div className="container">
+				<div className="container" id="contact-wrapper-info">
 					<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-						<Col span={12}>
+						<Col id="info-contact" xl={12} lg={12} md={12} sm={24}  xs={24} >
 							<div id="contact-info">
 								<h1>Contact Us</h1>
 								<p>
@@ -53,7 +53,7 @@ const Contact = ()=>{
 							</div>
 						</Col>
 
-						<Col span={12}>
+						<Col xl={12} lg={12} md={12} sm={24}  xs={24} >
 							<main className="flexMainContainer">
 								<div className="flex-container-fx">
 

@@ -21,7 +21,7 @@ const About = () =>{
 	}
 
 	return(
-		<>
+		<>	
 			<Layout>
 				<Banner
 					heading={`<h1>About C<span class="span-blue">2</span>C</h1>`}
@@ -34,7 +34,7 @@ const About = () =>{
 					<section id="about-upper-section">
 							<div className="container">
 								<Row gutter={20}>
-									<Col span={8}>
+									<Col xl={8} lg={8} md={12} sm={24}  xs={24}>
 										<div className="introduction-about-c2c">
 											<h1>Create2Convert Marketing Solutions</h1>
 											<p>
@@ -45,7 +45,8 @@ const About = () =>{
 											</p>
 										</div>
 									</Col>
-									<Col span={14}>
+
+									<Col xl={16} lg={16} md={12} sm={24}  xs={24}>
 										<div id="accordions-wrapper">
 											<Row gutter={20}>
 												<Blocks
@@ -79,7 +80,7 @@ const About = () =>{
 													}
 												/>
 
-												<Blocks
+												<blocks
 													title="Who We Help?"
 													icon={WWH}
 													body={
@@ -113,10 +114,10 @@ const About = () =>{
 					</section>
 
 					<div className="container">
-						<Row gutter={20}>
-							<Col span={10}>
+						<Row id="prg-row"gutter={20}>
+							<Col xl={8} lg={8} md={12} sm={24}  xs={24}>
 								<div className="third-block block">
-									<h1> Values </h1>
+									<h1> Values </h1>	
 									<p>
 										Integrity – Integrity is everything. Our team of experts upholds
 										the value of integrity in providing cohesive approach to our
@@ -143,7 +144,7 @@ const About = () =>{
 								</div>	
 							</Col>
 
-							<Col span={7}>
+							<Col xl={8} lg={8} md={12} sm={24}  xs={24} >
 								<div className="first-block block">
 									<h1>Mission</h1>
 									<p>	
@@ -155,7 +156,7 @@ const About = () =>{
 								</div>
 							</Col>
 
-							<Col span={7}>
+							<Col xl={8} lg={8} md={12} sm={24}  xs={24} >
 								<div className="second-block block">
 									<h1>Vision</h1>
 									<p>
@@ -169,7 +170,7 @@ const About = () =>{
 
 						<section className="our-team-contents">
 							<Row gutter={20}>
-								<Col span={8}>
+								<Col xl={12} lg={12} md={12} sm={24}  xs={24} >
 									<div className="our-team-wraps">
 										<h1>
 											Our Team<span className="dot">.</span>
@@ -182,7 +183,7 @@ const About = () =>{
 									</div>
 								</Col>
 
-								<Col span={16}>
+								<Col xl={12} lg={12} md={12} sm={24}  xs={24} >
 
 									<div className="content-wrapper-info">
 										<p>

@@ -12,7 +12,7 @@ const Navigation = () =>{
 		<>
 			<div className="container">
 				<nav id="navigation">
-					
+						
 					<span id="logo-span">
 						<Link to="/">
 							<img src={Logo} alt="main_logo"/>
