@@ -5,7 +5,7 @@ import Logo from "assets/images/logo/logo.png"
 const Navigation = () =>{
 
 	const [ isOpenToggle, toggleFunc] = useState(false)
-
+	console.log(isOpenToggle);
 
 	return(
 		<>
@@ -16,9 +16,9 @@ const Navigation = () =>{
 						<Link to="/">
 							<img src={Logo} alt="main_logo"/>
 						</Link>
-					</span>
+					</span>	
 
-					<ul style={{display : `${isOpenToggle ? 'none' : 'flex !important' }`}} >
+					<ul style={{display : `${!isOpenToggle ? 'flex' : 'none' }`}}>
 						<li>
 							<Link to="/about">
 								About C2C

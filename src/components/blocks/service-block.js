@@ -5,7 +5,7 @@ import {Row, Col} from "antd"
 const ServiceBlock = ({
 	heading,
 	icon,
-	body,
+	body,	
 	bg
 }) =>{
 
