@@ -40,8 +40,8 @@ const Services = ()=>{
 				  		<IconServices
 			      			iconSVG={SM_ICON}
 			      			iconStyle={{background: "#FF8A65", boxShadow: "rgb(255 138 101 / 54%) 1px 9px 13px 0px"}}
-			      			iconHeading={`Social Media <span class="block-elem">Campaign</span><span class="block-elem">Strategic</span>`}
-							iconInfo={`Create a strategically focused campaigns to influence and reach out to your target audiences through their hearts.`}
+			      			iconHeading={`Social Media <span class="block-elem">Campaign</span>`}
+							iconInfo={`Create a strategic focused campaigns to influence and reach out to your target audiences through their hearts.`}
 			      		/>
 				    </Col>
 
