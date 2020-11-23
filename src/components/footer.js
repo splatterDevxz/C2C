@@ -16,7 +16,7 @@ const Footer = () =>{
 				      		<nav id="footer-navigation">
 				      			<h1>C<span className="span-blue">2</span>C Marketing Solutions</h1>
 				      			<p>
-				      				We are a full-house marketing and digital services for entrepreneurs and solopreneurs.
+				      				Created for Creators. Built for Builders. Transform your random visitors to raving fans and turn your inquiries to customers.
 				      			</p>
 				      			<ul>
 				      				<li>

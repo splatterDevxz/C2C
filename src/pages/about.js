@@ -38,10 +38,10 @@ const About = (props) =>{
 										<div className="introduction-about-c2c">
 											<h1>Create2Convert Marketing Solutions</h1>
 											<p>
-												is a marketing
-												firm which applies both conventional and digital
-												marketing strategies, established to help local and
-												international businesses.
+												is a marketing firm dedicated 
+												to helping entrepreneurs and
+												solopreneurs exponentially 
+												grow their businesses.
 											</p>
 										</div>
 									</Col>

@@ -34,17 +34,16 @@ const Services = ()=>{
 			      			iconHeading={`Content Writing & Copywriting`}
 							iconInfo={`Other than videos, the best way to constantly connect with your customers would be through your words.`}
 			      		/>
-			      	</Col>
-
+			      	</Col>		
+			      	
 				 	<Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24} >
 				  		<IconServices
 			      			iconSVG={SM_ICON}
 			      			iconStyle={{background: "#FF8A65", boxShadow: "rgb(255 138 101 / 54%) 1px 9px 13px 0px"}}
-			      			iconHeading={`Social Media <span class="block-elem">Campaign</span>`}
+			      			iconHeading={`Social Media <span class="block-elem">Campaign</span><span class="block-elem">Strategic</span>`}
 							iconInfo={`Create a strategically focused campaigns to influence and reach out to your target audiences through their hearts.`}
 			      		/>
 				    </Col>
-
 
 					<Col className="gutter-row" xl={6} lg={6} md={12} sm={12}  xs={24} >
 			      		<IconServices
