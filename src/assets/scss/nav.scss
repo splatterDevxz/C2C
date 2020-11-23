@@ -51,8 +51,7 @@
 }
 
 #burger-container{
-    
-    position: fixed; 
+  
     right: 5%;
     top: 26px;
     padding: 12px;
@@ -64,7 +63,30 @@
     &:hover{
       cursor:pointer;
     }
+    
+    .x-mark-1{
+        width: 17px;
+        height: 2px;
+        background-color: #fff;
+        margin: 3px 0;
+        transition: 0.4s;
+        transform: rotate(38deg);
+        position: relative;
+        top: 2px;
+    }
+
+    .x-mark-2{
+        width: 17px;
+        height: 2px;
+        transform: rotate(-39deg);
+        background-color: #fff;
+        margin: 3px 0;
+        transition: 0.4s;
+        position: relative;
+        top: -3px;
+    }
 }
+
 
 .bar1, .bar2, .bar3 {
     width: 24px;

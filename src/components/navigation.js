@@ -69,13 +69,26 @@ const Navigation = () =>{
 						}
 					</ul>
 
-
-					<div 
+					<div
+					  style={{position: `${!isOpenToggle ? 'absolute' :  'fixed'}`}}
 					  id="burger-container" 
 					  onClick={()=>toggleFunc(!isOpenToggle)}>
-					  <div className="bar1"></div>	
-					  <div className="bar2"></div>
-					  <div className="bar3"></div>
+
+					  {
+					  	 !isOpenToggle ? (
+					  	 	<>
+					  	 		<div className="bar1"></div>	
+								<div className="bar2"></div>
+								<div className="bar3"></div>
+							</>
+					  	 ) : (
+					  	 	<>	
+					  	 		<div className="x-mark-1"></div>
+					  	 		<div className="x-mark-2"></div>
+					  	 	</>
+					  	 )
+					  }
+					
 					</div>
 
 				</nav>
