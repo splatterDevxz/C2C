@@ -29,7 +29,7 @@ const About = () =>{
 					banrClass="about_us_banner"
 					bgImg={BG}
 				/>
-		
+						
 				<section className="about-us-page-content">
 					<section id="about-upper-section">
 							<div className="container">

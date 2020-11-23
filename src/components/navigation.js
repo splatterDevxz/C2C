@@ -21,23 +21,23 @@ const Navigation = () =>{
 
 					<ul style={{display : `${!isOpenToggle ? 'flex' : 'none' }`}}>
 						<li>
-							<Link to="/about">
+							<a to="/about">
 								About C2C
-							</Link>
+							</a>
 						</li>
 						
 						<li>
-							<Link to="/services">
+							<a to="/services">
 								services
-							</Link>
-						</li>
-							
-						<li>
-							<Link id="child-last" to="/contact">
-								Contact
-							</Link>
+							</a>
 						</li>
 
+						<li>
+							<a id="child-last" to="/contact">
+								Contact
+							</a>
+						</li>
+						
 						{
 							!isOpenToggle && (
 								<div id="socmd-mobile-wraps">
