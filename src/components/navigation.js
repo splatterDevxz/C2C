@@ -81,8 +81,8 @@ const Navigation = () =>{
 								<div className="bar2"></div>
 								<div className="bar3"></div>
 							</>
-					  	 ) : (
-					  	 	<>	
+					  	 ):(
+					  	 	<>
 					  	 		<div className="x-mark-1"></div>
 					  	 		<div className="x-mark-2"></div>
 					  	 	</>
