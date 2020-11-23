@@ -5,7 +5,7 @@ import Inputs from "components/inputs/input"
 import IconContact from "assets/images/svg/contact.svg"
 import {SendOutlined, PhoneOutlined } from  "@ant-design/icons"
 
-const Contact = ()=>{
+const Contact = (props)=>{
 
 	function OnSubmitForm (e) {
 
@@ -30,7 +30,7 @@ const Contact = ()=>{
 
 	return(
 		<>
-			<Layout>
+			<Layout props={props.location}>
 				<div className="container" id="contact-wrapper-info">
 					<Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
 						<Col id="info-contact" xl={12} lg={12} md={12} sm={24}  xs={24} >

@@ -9,8 +9,8 @@ import LowerMain from "components/lower-main"
 import Candely from "components/candely"
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 
-const IndexPage = () => (	
-  <Layout> 
+const IndexPage = (props) => (
+  <Layout props={props.location}>
     <SEO title="Home" />
     <Banner/> 
     <Partners/>

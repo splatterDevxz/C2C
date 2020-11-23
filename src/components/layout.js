@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 import Header from "./header"
 import Footer from "./footer"
 
@@ -30,6 +30,11 @@ const Layout = ({ children }) => {
         <main>
           { children  } 
         </main>
+
+        <MessengerCustomerChat
+          pageId="109517367646457"
+          appId="692272011661859"
+        />
 
       <Footer/>
     </>

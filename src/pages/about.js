@@ -14,7 +14,7 @@ import WWH from "assets/images/svg/who_we_help.svg";
 import WCU from "assets/images/svg/why_choose_us.svg";
 
 
-const About = () =>{
+const About = (props) =>{
 
 	function callback(key) {
 	  console.log(key);
@@ -22,7 +22,7 @@ const About = () =>{
 
 	return(
 		<>	
-			<Layout>
+			<Layout props={props.location}>
 				<Banner
 					heading={`<h1>About C<span class="span-blue">2</span>C</h1>`}
 					subheading={`Marketing Solutions`}

@@ -21,8 +21,7 @@ const NFB = ({
 					<Row>
 						<Col  xl={8} lg={8} md={12} sm={24}  xs={24} >
 							<div className="about-heading-wrapper">
-								<div 
-									dangerouslySetInnerHTML={createMarkup(heading)} />
+								<div  dangerouslySetInnerHTML={createMarkup(heading)} />
 								<span className="subheading">{subheading}</span>
 							</div>
 						</Col>

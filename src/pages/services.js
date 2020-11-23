@@ -19,11 +19,10 @@ import WB_ICON  from "assets/images/svg/web_dev.svg"
 import PR_ICON  from "assets/images/svg/personal_relation.svg"
 import VC_ICON  from "assets/images/svg/video_content.svg"	
 
-const Services = () =>{	
+const Services = (props) =>{	
 	return(		
 		<>
-			<Layout>
-
+			<Layout props={props.location}>
 				<Banner
 					heading={`<h1>SERVI<span class="span-blue">C</span>ES</h1>`}
 					subheading={`C2C Marketing Solutions`}

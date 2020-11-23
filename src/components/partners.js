@@ -12,9 +12,9 @@ const Partners = ()=>{
                 <div className="container">
 
                     <p id="partners-content">
-                        <span>Marketing</span> is not just about strategies,
-                        it's more about Stories.
-                    </p>
+                        Marketing is not just about <span>strategies</span>,
+                        it's more about <span>Stories.</span>
+                    </p> 
 
                     {
                         partLogo.map((e, i)=>

@@ -17,35 +17,58 @@ const Navigation = () =>{
 						<Link to="/">
 							<img src={Logo} alt="main_logo"/>
 						</Link>
-					</span>	
+					</span>
 
-					<ul style={{display : `${!isOpenToggle ? 'flex' : 'none' }`}}>
+					<ul  className="nav-ul">
+
 						<li>
-							<a to="/about">
+							<Link to="/about">
 								About C2C
-							</a>
+							</Link>
 						</li>
 						
 						<li>
-							<a to="/services">
-								services
-							</a>
+							<Link to="/services">
+								Services
+							</Link>
 						</li>
 
 						<li>
-							<a id="child-last" to="/contact">
+							<Link id="child-last" to="/contact">
 								Contact
-							</a>
+							</Link>
+						</li>
+					</ul>
+
+					<ul className="mobile-nav" style={{display : `${!isOpenToggle ? 'none' : 'flex' }`}}>
+
+						<li>
+							<Link to="/about">
+								About C2C
+							</Link>
 						</li>
 						
+						<li>
+							<Link to="/services">
+								Services
+							</Link>
+						</li>
+
+						<li>
+							<Link id="child-last" to="/contact">
+								Contact
+							</Link>
+						</li>
+
 						{
-							!isOpenToggle && (
+							isOpenToggle && (
 								<div id="socmd-mobile-wraps">
 									<SocMed/>
 								</div>
 							)
 						}
 					</ul>
+
 
 					<div 
 					  id="burger-container" 
