@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import {Link} from "gatsby"
 import Logo from "assets/images/logo/logo.png"
+import SocMed from "./sm-container"
 
 const Navigation = () =>{
 
@@ -24,19 +25,26 @@ const Navigation = () =>{
 								About C2C
 							</Link>
 						</li>
-
+						
 						<li>
 							<Link to="/services">
 								Services
 							</Link>
 						</li>
 						<li>
-							<Link to="/contact">
-								contact
+							<Link id="child-last" to="/contact">
+								Contact
 							</Link>
 						</li>
-					</ul>
 
+						{
+							!isOpenToggle && (
+								<div id="socmd-mobile-wraps">
+									<SocMed/>
+								</div>
+							)
+						}
+					</ul>
 
 					<div 
 					  id="burger-container" 

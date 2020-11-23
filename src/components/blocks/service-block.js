@@ -8,8 +8,7 @@ const ServiceBlock = ({
 	body,	
 	bg
 }) =>{
-
-
+	
 	function createMarkup(tag) { 
 		return {__html: tag};
 	};

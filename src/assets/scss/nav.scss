@@ -12,15 +12,17 @@
     
     ul{
     
-        display: flex;
         justify-content: flex-end;
         align-items: center;
         padding: 0;
         margin: 0;
 
         li{
+           
             list-style-type: none;
             padding: 0 3%;
+            display:inline-block;
+
             a{
                 color: #474747;
                 text-decoration: none;
@@ -48,12 +50,14 @@
 }
 
 #burger-container{
-    position: absolute; 
+    
+    position: fixed; 
     right: 5%;
     top: 26px;
     padding: 12px;
     background: #c890f7;
     background-image: linear-gradient(to bottom right, #bf30ef, #0072ff);
+    z-index:20;
     display:none;
 
     &:hover{
@@ -109,3 +113,44 @@
   transform: rotate(-45deg);
 }
 
+
+#socmd-mobile-wraps{
+
+  transform: translateY(100%);
+
+  li{
+    
+      padding: 0 9%;
+
+      &:last-child{
+        background-image: none !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+  }
+  
+  .social-media-container{ 
+      width: 100% !important;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      li{
+          padding: 0 11px;
+
+          &:last-child{
+            position: relative;
+            top: -4px;
+            left: 5px;
+         }
+      }
+  }
+}
+
+#child-last{
+    background-image: linear-gradient(to bottom right, #bf30ef, #0072ff);
+    border-radius: 13px;
+    padding: 5px 25px;
+    margin: 0 14px;
+} 
