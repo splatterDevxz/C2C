@@ -24,7 +24,7 @@ const Banner = () =>{
                             </p>
 
                             <button className="button-defs">
-                                <Link to="">
+                                <Link to="/contact">
                                     LET’S START
                                 </Link>
                             </button>
