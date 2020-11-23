@@ -28,9 +28,10 @@ const Navigation = () =>{
 						
 						<li>
 							<Link to="/services">
-								Services
+								services
 							</Link>
 						</li>
+							
 						<li>
 							<Link id="child-last" to="/contact">
 								Contact
