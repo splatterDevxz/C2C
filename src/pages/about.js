@@ -148,10 +148,11 @@ const About = (props) =>{
 								<div className="first-block block">
 									<h1>Mission</h1>
 									<p>	
-										To become the Go-To marketing firm which creates results-
-										oriented and long lasting solutions to help start-up businesses
-										and online entrepreneurs get more clients, maintain good social
-										presence, and create more repeat businesses.
+							
+										Providing innovative and highly converting programs to increase
+										our clients’ profitability ratio through sustainable marketing
+										strategies and to provide equal opportunities to industry experts.
+
 									</p>
 								</div>
 							</Col>
@@ -160,9 +161,10 @@ const About = (props) =>{
 								<div className="second-block block">
 									<h1>Vision</h1>
 									<p>
-										Providing innovative and highly converting programs to increase
-										our clients’ profitability ratio through sustainable marketing
-										strategies and to provide equal opportunities to industry experts.
+										To become the Go-To marketing firm which creates results-
+										oriented and long lasting solutions to help start-up businesses
+										and online entrepreneurs get more clients, maintain good social
+										presence, and create more repeat businesses.
 									</p>
 								</div>
 							</Col>
