@@ -9,7 +9,7 @@ module.exports = {
     description: `Created for Creators. Built for Builders. Transform your random visitors to raving fans and turn your inquiries to customers`,
     author: `@jessicasy`, 
   },
-  plugins: [
+  plugins:[
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
