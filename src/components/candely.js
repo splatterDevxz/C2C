@@ -26,7 +26,7 @@ const Candely = ()=>{
 						 		<p>Book an Absolutely Free Consultation HERE</p>
 						 		
 						 		<button>
-						 			<a href="">Click Here</a>
+						 			<a href="/contact">Click Here</a>
 						 		</button>
 					 		</div>
 			            </Col>

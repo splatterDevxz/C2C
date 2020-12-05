@@ -39,7 +39,7 @@ const Contact = (props)=>{
 								<h1>Contact Us</h1>
 								
 								<p>
-									 Thingking of Creating
+									 Thinking of Creating
 									 those digital marketing
 									 efforts to reality? 
 									 Let's talk. 

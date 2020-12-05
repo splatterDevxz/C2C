@@ -69,13 +69,11 @@ const About = (props) =>{
 													icon={WWD}
 													body={
 														`
-															We are a marketing firm with dedicated team of
-															professionals and well-versed experts in their
-															respective field who can take care of every
-															marketing needs for you, while you focus on
-															growing your business further. We help you
-															transform your business from the industrial to the
-															information age and become globally competitive.
+															We are a dedicated marketing firm with a 
+															strong desire to help you grow your business
+															further. We exist to help you transform your
+															business from the industrial to the information
+															age and compete with your industry.
 														`
 													}
 												/>
@@ -85,10 +83,11 @@ const About = (props) =>{
 													icon={WWH}
 													body={
 														`
-															We help different types of business whether you
-															are a start-up or have already established a client-
-															based and would love to increase more your
-															business potential, we are your partner to success.
+														We help different types of businesses whether 
+														you are a start-up or you have already established
+														a client-based and would love to see how else 
+														you could create another revenue line or simply 
+														increase your revenue, we would be happy to help.
 														`
 													}
 												/>
@@ -98,11 +97,9 @@ const About = (props) =>{
 													icon={WCU}
 													body={
 														`
-															We are your trusted arm in the fulfillment of your
-															promised services to your clients. Our focus is
-															centered towards providing quality service and
-															increasing the revenue of your company with the
-															value of our work.
+															Our focus is centered towards providing quality 
+															service and increasing the revenue of your 
+															company with the value of our work.
 														`
 													}
 												/>
@@ -161,10 +158,10 @@ const About = (props) =>{
 								<div className="second-block block">
 									<h1>Vision</h1>
 									<p>
-										To become the Go-To marketing firm which creates results-
-										oriented and long lasting solutions to help start-up businesses
-										and online entrepreneurs get more clients, maintain good social
-										presence, and create more repeat businesses.
+										To become the Go-To marketing firm that creates 
+										results-oriented and long-lasting solutions to help 
+										start-up businesses and online entrepreneurs get more clients, 
+										maintain a good social presence, and create more repeat businesses.
 									</p>
 								</div>
 							</Col>
@@ -189,9 +186,7 @@ const About = (props) =>{
 
 									<div className="content-wrapper-info">
 										<p>
-											We are a group of sincere individuals gathered towards one common goal,
-											which is to help our clients get the results they set for themselves and their
-											companies through our combined skills and expertise. We have a team of experts with strong 
+											Our goal is to get the results you want. We have a team of experts with strong 
 											business acumen who will extensively conduct market research
 											for us to determine the appropriate and effective solutions for your business.
 											If you believe there is still something you need to do to thrive in your business
