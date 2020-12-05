@@ -32,8 +32,8 @@ const Layout = ({ children }) => {
         </main>
 
         <MessengerCustomerChat
-          pageId="109517367646457"
-          appId="692272011661859"
+          pageId="118234263430713"
+          appId="1412881125580881"
         />
 
       <Footer/>
